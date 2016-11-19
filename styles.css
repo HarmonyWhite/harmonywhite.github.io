@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+* { 
+box-sizing:border-box}
 h1,
 h2,
 h3 {
-    font-family: "Shadows Into Light", cursive;
+    font-family: "Courgette", cursive;
     color: #FFBA40;
 }
 
@@ -21,7 +23,7 @@ body {
 
 a {
     color: #183929;
-    text-decoration: none;
+  font-weight: bold;
 }
 
 .light-grey {
