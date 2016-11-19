@@ -2,11 +2,13 @@
 h1,
 h2,
 h3 {
-    font-family: "Shadows Into Light", cursive
+    font-family: "Shadows Into Light", cursive;
+    color: #FFBA40;
 }
 
-nav {
-    background-color: grey;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
 }
 
 #content {
@@ -15,52 +17,31 @@ nav {
 
 #relax-rapids {
     background-color: #110D20;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
-    padding: 1em;
-    display:flex;
-    flex-flow:row;}
+}
 
 a {
     color: #183929;
     text-decoration: none;
 }
 
-h1,
-h2,
-h3 {
-    color: #FFBA40;
-}
-
 .light-grey {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
     color: lightgrey;
-    padding: 1em;
-    align-content: center;
 }
-
-.font {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
-    padding: 1em;
-    line-height: 2em;
-    margin-top: .3px;
-}
+    
 
 h2 {
     margin-bottom: 1px;
 }
 
 #content {
-    width: 960px;
+    width: 90%;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 #closing {
     text-align: center;
     color: black;
-    font-size:1.3em;
     padding: 2em;
     margin: 2em
 }
@@ -81,38 +62,48 @@ footer {
 #banner {
     width: 100%
 }
-
-.rightcol{ 
-width: 48%;
-flex: 1 0 15em;
-margin: .5em}
-
-.leftcol
-{
-    width:48%;
+.leftcol,
+.rightcol {
+    width: 48%;
     flex: 1 0 15em;
     margin: .5em
 }
-#section1 {
+#section1, #relax-rapids {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+
 }
-
-nav > ul {list-style-type:none;
-display:flex;
-justify-content: space-between;
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
     margin: 0;
-
+    flex-flow: row wrap
 }
 nav li {
-    flex:1 0 6em
+    flex: 1 0 6em
 }
-nav {line-height:4.5em;
-font-size: 1.2em;
-margin-top: -4.9em;
-padding-left:7em}
+nav {
+    line-height: 4.5em;
+    font-size: 1em;
+    margin-top: -4.9em;
+    padding-left: 6em;
+    background-color: grey;
+}
 #logo {
     background-color: white;
-    border-image: yellow;
+    border: solid;
+    border-color: #FFBA40;
+    border-width: thick;
     position: relative;
+    margin-right: 6px;
 }
+a:hover {
+    background-color: #183929;
+    color: #FFBA40;
+}
+nav a {
+    padding: 1em .9em
+}
+img  {max-width: 100%}
