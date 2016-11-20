@@ -59,7 +59,12 @@ section {
 
 }
 footer {
-    background-color:
+    background-color: #FFBA40;
+    display:flex;
+    flex-flow: row wrap;
+        justify-content: space-between;
+    align-items: center;
+    height: 55px;
 }
 #banner {
     width: 100%
