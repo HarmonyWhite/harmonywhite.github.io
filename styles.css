@@ -133,3 +133,24 @@ padding-top:.5em;
 padding-bottom:.5em;
 padding-top:.5em;
 }
+#section3 { display: flex;
+    flex-flow: row wrap;
+ }
+#encounters { text-align: center;
+font-size:2em;}
+#wild {background-color:#110D20;
+color:lightgrey;
+margin-bottom: 1em;}
+#bookings { text-align: center;
+    color: black;
+    margin: .5em }
+#stories {
+border-bottom-style:solid;
+border-bottom-width: .5px;
+border-bottom-color: #183929;
+text-align: center;
+padding-bottom: 1em;
+margin-top: -1em;}
+#readstories {color:black;}
+#smallarrow {width:2em;}
+.footerp { padding-left:1em;}
